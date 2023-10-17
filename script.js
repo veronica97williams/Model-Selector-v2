@@ -9,7 +9,7 @@ document.getElementById('model-container').appendChild(renderer.domElement);
 const loader = new THREE.GLTFLoader();
 let model;
 
-loader.load('Hershey Models/Hershey.D88614.glb', (gltf) => {
+loader.load('Hershey Models/D88614.gltf', (gltf) => {
     model = gltf.scene;
     model.scale.set(1, 1, 1); // Adjust scale if needed
     scene.add(model);
