@@ -44,3 +44,6 @@ function animate() {
 }
 
 animate();
+
+camera.position.set(0, 0, 2); // Adjust the position as needed
+camera.lookAt(0, 0, 0); // Point the camera at the origin
